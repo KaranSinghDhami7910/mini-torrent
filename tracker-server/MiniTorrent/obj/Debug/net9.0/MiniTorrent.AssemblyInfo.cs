@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiniTorrent")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75f78190675f7956dd58cefe2cb3043cf695cce2")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiniTorrent")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiniTorrent")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
