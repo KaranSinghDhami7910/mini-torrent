@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Torrent Tracker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        .torrent-table {
+            width: 100%;
+            margin-bottom: 20px;
+            border-collapse: collapse;
+        }
+        .torrent-table th, .torrent-table td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        .torrent-table th {
+            background-color: #333;
+            color: white;
+        }
+        .button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+        }
+        .button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Mini Torrent Tracker</h1>
+</header>
+
+<div class="container">
+    <h2>Torrent List</h2>
+
+    <!-- Torrent Table -->
+    <table class="torrent-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Peers</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Sample torrent entry -->
+            <tr>
+                <td>1</td>
+                <td>Sample Torrent 1</td>
+                <td>5</td>
+                <td><button class="button" onclick="registerPeer(1)">Register Peer</button></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Sample Torrent 2</td>
+                <td>8</td>
+                <td><button class="button" onclick="registerPeer(2)">Register Peer</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Register a New Peer</h2>
+    <form action="/peer/register" method="post">
+        <label for="peerIp">Peer IP:</label>
+        <input type="text" id="peerIp" name="peerIp" required><br><br>
+        <label for="torrentId">Torrent ID:</label>
+        <input type="number" id="torrentId" name="torrentId" required><br><br>
+        <button type="submit" class="button">Register Peer</button>
+    </form>
+</div>
+
+<script>
+    function registerPeer(torrentId) {
+        // Here, you can add functionality to dynamically register a peer
+        alert("Registering peer for torrent ID: " + torrentId);
+    }
+</script>
+
+</body>
+</html>

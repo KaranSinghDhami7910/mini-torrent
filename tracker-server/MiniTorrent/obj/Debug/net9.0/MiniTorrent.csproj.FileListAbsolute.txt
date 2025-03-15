@@ -1,0 +1,14 @@
+C:\Users\basant\Desktop\mini-torrent\tracker-server\MiniTorrent\bin\Debug\net9.0\MiniTorrent.exe
+C:\Users\basant\Desktop\mini-torrent\tracker-server\MiniTorrent\bin\Debug\net9.0\MiniTorrent.deps.json
+C:\Users\basant\Desktop\mini-torrent\tracker-server\MiniTorrent\bin\Debug\net9.0\MiniTorrent.runtimeconfig.json
+C:\Users\basant\Desktop\mini-torrent\tracker-server\MiniTorrent\bin\Debug\net9.0\MiniTorrent.dll
+C:\Users\basant\Desktop\mini-torrent\tracker-server\MiniTorrent\bin\Debug\net9.0\MiniTorrent.pdb
+C:\Users\basant\Desktop\mini-torrent\tracker-server\MiniTorrent\obj\Debug\net9.0\MiniTorrent.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\basant\Desktop\mini-torrent\tracker-server\MiniTorrent\obj\Debug\net9.0\MiniTorrent.AssemblyInfoInputs.cache
+C:\Users\basant\Desktop\mini-torrent\tracker-server\MiniTorrent\obj\Debug\net9.0\MiniTorrent.AssemblyInfo.cs
+C:\Users\basant\Desktop\mini-torrent\tracker-server\MiniTorrent\obj\Debug\net9.0\MiniTorrent.csproj.CoreCompileInputs.cache
+C:\Users\basant\Desktop\mini-torrent\tracker-server\MiniTorrent\obj\Debug\net9.0\MiniTorrent.dll
+C:\Users\basant\Desktop\mini-torrent\tracker-server\MiniTorrent\obj\Debug\net9.0\refint\MiniTorrent.dll
+C:\Users\basant\Desktop\mini-torrent\tracker-server\MiniTorrent\obj\Debug\net9.0\MiniTorrent.pdb
+C:\Users\basant\Desktop\mini-torrent\tracker-server\MiniTorrent\obj\Debug\net9.0\MiniTorrent.genruntimeconfig.cache
+C:\Users\basant\Desktop\mini-torrent\tracker-server\MiniTorrent\obj\Debug\net9.0\ref\MiniTorrent.dll
